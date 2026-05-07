@@ -10,11 +10,16 @@ Estiliza e adiciona cores às mensagens no terminal, facilitando logs e depuraç
 <small>Quando tudo esta rodando no mesmo locol ta ok, mas em produção, com client e server rodando em hambientes diferentes, o cors é essencial</small>
 
 **Dotenv**<br> 
-Carrega variáveis de ambiente a partir de um arquivo .env para manter dados sensíveis seguros.
+Carrega variáveis de ambiente a partir de um arquivo *.env* para manter dados sensíveis seguros.<br>
+<small>Despensa comentarios</small>
 
-express — Framework web rápido e minimalista para Node.js, usado para construir a API e gerenciar rotas.
+**Express**<br>
+Framework web rápido e minimalista para Node.js, usado para construir a API em si e gerenciar rotas.<br>
+<small>Poderia usar o fastfy, mas ainda não tenho muito conhecimento, por enquanto</small>
 
-express-session — Gerencia sessões de usuário no Express, armazenando dados entre requisições.
+**Express-session**<br>
+Gerencia sessões de usuário no Express, armazenando dados entre requisições.<br>
+<small>Usado pelo *Passport* para manter o usuário autenticado entre as requisições</small>
 
 joi — Biblioteca de validação de dados que permite definir esquemas e validar entradas de forma robusta.
 
